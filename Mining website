@@ -1,0 +1,9 @@
+/mining-website
+  /css
+    - style.css
+  /js
+    - script.js
+  /images
+    - logo.png (yahaan aap apna interesting logo rakh sakte hain)
+  - index.html
+  - dashboard.html
