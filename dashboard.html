@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1>User Dashboard</h1>
+        <div id="user-info">
+            <p>Username: <span id="username"></span></p>
+            <p>Registration Date: <span id="register-date"></span></p>
+            <p>Login Date: <span id="login-date"></span></p>
+        </div>
+        <div id="account-info">
+            <p>Deposit Amount: <span id="deposit"></span></p>
+            <p>Withdrawal Amount: <span id="withdrawal"></span></p>
+            <p>Pending Amount: <span id="pending"></span></p>
+            <p>Earning Amount: <span id="earning"></span></p>
+        </div>
+        <div id="trading-view">
+            <!-- Yahaan aap trading view ka data dikha sakte hain -->
+        </div>
+        <div class="actions">
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+        </div>
+    </div>
+</body>
+</html>
